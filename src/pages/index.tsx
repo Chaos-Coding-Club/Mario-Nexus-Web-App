@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/comps/Navbar'
 import Footer from '@/comps/Footer'
+import DownloadButton from '@/comps/downloadButton'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -11,7 +12,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
    <div>
- 
+      <div className="nes-container is-dark with-title is-centered" id="downloadContainer">
+        <p className="title">Download Desktop App</p>
+        <DownloadButton>Download</DownloadButton>
+      </div>
    </div>
   )
 }
