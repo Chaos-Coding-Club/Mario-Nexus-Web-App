@@ -58,17 +58,54 @@ footer {
 #homeContainer {
   top: 20px;
   width: 500px;
-  margin: auto;
+  margin-left: 50px;
 }
 
 #homeContainer2 {
   top: 40px;
   width: 800px;
   margin: auto;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  margin-right: 10px;
 }
 
 #downloadContainer{
   top: 20px;
   width: 500px;
   margin: auto;
+}
+
+#messageBubble{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#messageContainer{
+  width: 500px;
+  margin: auto; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#aContainer{
+  margin-top: 60px;
+}
+
+.Diagram{
+  display: flex;
+  justify-content: center;
+}
+
+.Timeline{
+  margin-left: 60px;
+  height: 527px;
+}
+
+.Rahul{
+  margin-left: 340px;
+}
+
+.Ishan{
+  justify-content: left;
 }
