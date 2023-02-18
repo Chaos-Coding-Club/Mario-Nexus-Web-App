@@ -25,7 +25,7 @@ export default function Home() {
   
       <div className="nes-container is-dark with-title is-centered" id="downloadContainer">
         <p className="title">Download Desktop App</p>
-      <DownloadButton>Download</DownloadButton>
+      <button>Download</button>
     </div>
    </div>
   )
