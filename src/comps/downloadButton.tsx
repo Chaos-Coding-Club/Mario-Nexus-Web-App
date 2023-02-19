@@ -1,10 +1,12 @@
 import Link from 'next/link';
 
 const DownloadButton = () => {
+  const link = process.env.API;
+  
   return (
-    <Link className='nes-btn' href="/path/to/executable/file.exe" download="file.exe">
+    <a className='nes-btn' href={ link ?? ""} >
       Download File
-    </Link>
+    </a>
   );
 };
 
